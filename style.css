@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+main {
+  margin: 20px;
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#feed {
+  margin-top: 20px;
+}
+
+#video-feed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
