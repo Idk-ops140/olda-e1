@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olda - Share Your World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Olda</h1>
+  </header>
+
+  <main>
+    <div id="auth-section">
+      <h2>Sign Up / Login</h2>
+      <input type="text" id="username" placeholder="Enter your username">
+      <button id="auth-button">Sign Up / Login</button>
+    </div>
+
+    <div id="interest-section" style="display: none;">
+      <h2>Choose Your Interests</h2>
+      <div>
+        <label><input type="checkbox" value="Technology"> Technology</label>
+        <label><input type="checkbox" value="Music"> Music</label>
+        <label><input type="checkbox" value="Gaming"> Gaming</label>
+        <label><input type="checkbox" value="Cooking"> Cooking</label>
+      </div>
+      <button id="save-interests">Save Interests</button>
+    </div>
+
+    <div id="video-section" style="display: none;">
+      <h2>Create or Upload a Video</h2>
+      <button id="record-button">Record a Video</button>
+      <input type="file" id="upload-video" accept="video/*">
+      <div id="feed">
+        <h3>Your Feed</h3>
+        <div id="video-feed"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
